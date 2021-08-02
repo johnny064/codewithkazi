@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* for the logo design */
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+
+}
+
+
+
+/* display the four link in a one row with proper width */
+.list{
+    font-size: 1.2rem;
+    list-style-type: none;
+    width: 100%;
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-item a{
+    text-decoration:none ;
+}
+.list-item a:hover{
+    font-weight: 600;
+    color: red;
+}
+
+
+/* Home page backgound styling */
+
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    background: url(/images/home-background.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+
+}
