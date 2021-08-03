@@ -44,16 +44,29 @@
 .list-item a:hover{
     font-weight: 600;
     color: red;
+    transition: 0.3s ease-out;
 }
 
 
 /* Home page backgound styling */
 
 .home-container{
+    position: relative;
     width: 100vw;
     height: 100vh;
     background: url(/images/home-background.jpg) no-repeat;
     background-size: cover;
-    color: white;
-
+  
 }
+.text{
+    position: absolute;
+    /* margin: auto; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: 800;
+    
+    color: white;
+   
+    }
