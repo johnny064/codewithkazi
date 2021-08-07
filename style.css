@@ -66,7 +66,85 @@
     transform: translate(-50%,-50%);
     text-align: center;
     font-weight: 800;
-    
     color: white;
    
+    }
+
+    /* About me segment style */
+    .about-container{
+        text-align: center;
+        
+    }
+
+    .about-container h1{
+        margin-top: 50px;
+    }
+
+    .line{
+        border: 1px solid black;
+        margin: auto;
+        width: 100px; 
+        text-align: center;       
+    }
+    .per-image img{
+        margin-top: 30px;
+        height: 260px;
+        width: 250px;
+        border-radius: 50%;
+        border: 5px solid red;
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+    .per-image img:hover{
+        filter: grayscale(0%);
+        transition: 0.2s all ease-out;
+    }
+    .social-media{
+        margin-top: 30px;
+        color: black;
+        cursor: pointer;
+        
+        
+    }
+    .social-media a{
+        text-decoration: none;
+        color: inherit;
+        padding-right: 40px;
+    }
+    .fa-facebook:hover{
+        color: blue;
+    }
+    .fa-stack-overflow:hover{
+        color: orange;
+    }
+
+    .fa-linkedin:hover{
+        color: navy;
+    }
+    .fa-instagram:hover{
+        color: orangered;
+    }
+    .fa-github:hover{
+        color: darkgray;
+    }
+
+    .details{
+        width: 800px;
+        font-size: 1.5rem;
+        margin: 30px auto;
+    }
+    #about-btn{
+        padding: 10px 20px;
+        background-color: rgba(255, 0, 0, 0.418);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #about-btn:hover{
+        background-color: red;
+        transition: 0.2s ease-out;
+
     }
