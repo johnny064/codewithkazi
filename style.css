@@ -54,8 +54,9 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url(/images/home-background.jpg) no-repeat;
+    background: url(/images/home-background.jpg) fixed;
     background-size: cover;
+    
   
 }
 .text{
@@ -83,7 +84,7 @@
     .line{
         border: 1px solid black;
         margin: auto;
-        width: 100px; 
+        width: 150px; 
         text-align: center;       
     }
     .per-image img{
@@ -150,12 +151,14 @@
     #about-btn:hover{
         background-color: red;
         transition: 0.5s all ease-out;
+        
 
     }
     #about-btn:hover .fa-angle-double-right{
         opacity: 1;
         visibility: visible;
         transition: 0.5s all ease-out;
+        padding-left: 5px;
 
     }
 
@@ -164,7 +167,13 @@
 
     .expertise-container{
         text-align: center;
+        margin-top: 80px;
     }
+
+    .expertise-container h1{
+        font-size: 2.5rem;
+    }
+
     .exp-title{
         font-size: 1.5;
     }
@@ -179,9 +188,99 @@
     }
     .exp-items i{
         font-size: 4.5rem;
+        cursor: pointer;
     
     }
     .exp-items p{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+
+    /* indivisual icons design */
+    .fa-desktop{
+        background: rgba(255, 0, 0, 0.5);
+        color: white;
+        padding: 25px;
+        border-radius: 50%;
+    }
+    .fa-desktop:hover{
+        background: rgba(255, 0, 0);
+       transition: 0.3s all ease-out;
+
+    }
+
+
+
+    .fa-code{
+        background: rgb(2, 195, 115, 0.5);
+        color: white;
+        padding: 25px;
+        border-radius: 50%;
+    }
+
+    .fa-code:hover{
+        background: rgb(2, 195, 115);
+       transition: 0.3s all ease-out;
+    }
+
+
+
+    .fa-wordpress{
+        background: rgb(0, 0, 204, 0.5);
+        color: white;
+        padding: 25px;
+        border-radius: 50%;
+    }
+
+    .fa-wordpress:hover{
+        background: rgb(0, 0, 204);
+       transition: 0.3s all ease-out;
+        
+    }
+
+    .fa-address-book{
+        background: rgba(255, 68, 0, 0.5);
+        color: white;
+        padding: 25px;
+        border-radius: 50%;
+    }
+
+    .fa-address-book:hover{
+        background: rgba(255, 68, 0);
+        transition: 0.3s all ease-out;
+      
     }
     
+
+
+    /* portfolio Segment design */
+    /* --------------------------------------------------------------------------------- */
+    .port-images img{
+        
+        height: 350px;
+        width: 350px;
+        filter: brightness(50%);
+    }
+
+    
+    .port-images .port-img{
+        position: relative;
+
+    }
+
+    .port-img p{
+        position: absolute;
+        margin: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .port-images img:hover{
+        filter: brightness(100%);
+    }
