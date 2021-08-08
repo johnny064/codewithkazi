@@ -143,8 +143,45 @@
         font-weight: bold;
         cursor: pointer;
     }
+    .fa-angle-double-right{
+        opacity: 0;
+        visibility: hidden;
+    }
     #about-btn:hover{
         background-color: red;
-        transition: 0.2s ease-out;
+        transition: 0.5s all ease-out;
 
     }
+    #about-btn:hover .fa-angle-double-right{
+        opacity: 1;
+        visibility: visible;
+        transition: 0.5s all ease-out;
+
+    }
+
+
+    /* Expertise segment design */
+
+    .expertise-container{
+        text-align: center;
+    }
+    .exp-title{
+        font-size: 1.5;
+    }
+    .exp-items{
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+    .exp-items i{
+        font-size: 4.5rem;
+    
+    }
+    .exp-items p{
+        font-size: 2.5rem;
+    }
+    
