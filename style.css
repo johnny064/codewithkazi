@@ -54,7 +54,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url(/images/home-background.jpg) fixed;
+    background: url(images/home-background.jpg) fixed;
     background-size: cover;
     
   
