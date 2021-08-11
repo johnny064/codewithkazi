@@ -306,6 +306,54 @@
         cursor: pointer;
     }
 
+    /* contact segment style */
+    /* ------------------------------------------------------------------- */
+
+    .contact-container{
+
+
+    }
+
+    .con-title{
+        margin-top: 60px;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .con-details{
+        margin-top: 80px;
+        font-size: 1.8rem;
+       
+    }
+
+    .con-name{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+    .freelance{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .freelance img{
+        box-shadow: 0px 0px 15px 0px black;
+        border-radius: 10px;
+    }
+
+    .direct-contact{
+        
+        text-align: justify;
+        width: 80%;
+        margin:60px auto;
+    }
+    .direct-title{
+        text-decoration: underline;
+       margin-bottom: 40px;
+    }
+
     
     
     
