@@ -404,7 +404,7 @@
             font-size: 1.5rem;
             color: white;
         }
-        .hamburger-menu{
+        .hamburger-bar{
             cursor: pointer;
         }
         .ham-line{
@@ -414,13 +414,44 @@
             margin: 8px;
             z-index: 999;
         }
-        .hamburger-menu:hover .ham-line{
+        .hamburger-bar:hover .ham-line{
             border-color: white;
             transition: 0.2s all ease-out;
         }
 
         .nav-links{
-            display: none;
+            display:none;
+            /* margin-top: 400px;
+            width: 100%;
+            display:flex;
+            flex-direction: column;
+            background-color: white;
+            z-index: 999;
+            cursor: pointer; */
+        }
+        .nav-links .list{
+            width: 100%;
+            margin-left: 5px;
+            font-size: 3rem;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            background: red;
+            z-index: 1;
+
+        }
+        .nav-links.active{
+            text-align: center;
+            display: block;
+            
+            position:absolute;
+            top: 10%;
+            
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
         }
 
 
