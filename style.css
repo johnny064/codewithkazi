@@ -11,6 +11,7 @@
 }
 
 .header{
+    
     width: 100%;
     height: 60px;
     background: rgba(255, 22, 22, 0.74);
@@ -301,8 +302,8 @@
 
     .port-images img{
         
-        height: 350px;
-        width: 350px;
+        height: 450px;
+        width: 750px;
         box-shadow: 0px 0px 10px 0px black;
         border-radius: 15px;
         
@@ -319,14 +320,18 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+        
 
+    }
+    .port-images img{
+        transition: 0.5s ease-out;
     }
 
     .work-title{
         /* position: absolute; */
-        width: 325px;
+        width: 400px;
         border-radius: 10px;
-        margin: -5px auto;
+        margin: 5px auto;
         /* left: 50%;
         top: 50%;
         transform: translate(-50%,-50%); */
@@ -339,11 +344,11 @@
     }
 
     
-    .port-img img:hover{
+    /* .port-img img:hover{
         transform: scale(1.1);
         transition: 0.5s ease-out;
         cursor: pointer;
-    }
+    } */
 
     /* contact segment style */
     /* ------------------------------------------------------------------- */
@@ -388,6 +393,24 @@
     .direct-title{
         text-decoration: underline;
        margin-bottom: 40px;
+    }
+
+    /* next and prev buttons design for the slider */
+    .btns{
+        position: absolute;
+        display: flex;
+        gap: 800px;
+    }
+    #prevBtn{
+        
+        font-size: 4.5rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #nextBtn{
+        font-size: 4.5rem;
+        cursor: pointer;
+        font-weight: bold;
     }
 
 
